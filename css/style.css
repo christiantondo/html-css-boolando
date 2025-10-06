@@ -5,3 +5,62 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+/* generic css */
+
+header {
+    background-color: #EF6905;
+    margin-bottom: 2em;
+}
+
+footer {
+    margin-top: 3em;
+    background-color: #1A1A1A;
+    height: 100px;
+}
+
+.container-boxed {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    flex: 0 0 calc(33.333% - 0.666667rem);
+    position: relative;
+}
+
+.card > img {
+    width: 100%;
+
+}
+
+.brand-name {
+    font-size: 12px;
+}
+
+.clothing-name {
+    font-size: 12px;
+}
+
+.price {
+    font-size: 12px;
+    color: red;
+}
+
+.favorite-item {
+    background-color: white;
+    padding: 5px 8px 5px 8px;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+}
