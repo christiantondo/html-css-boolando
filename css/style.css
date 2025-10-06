@@ -25,7 +25,7 @@ footer {
 }
 
 .container-boxed {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -43,7 +43,7 @@ footer {
 
 .header-category {
     width: 20%;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     color: white;
 }
@@ -102,6 +102,11 @@ footer {
 
 
 /* labels */
+
+a:hover {
+    color: red;
+}
+
 .favorite-label {
     background-color: white;
     padding: 5px 8px 5px 8px;
