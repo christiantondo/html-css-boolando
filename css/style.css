@@ -14,6 +14,7 @@ body {
 header {
     background-color: #EF6905;
     margin-bottom: 2em;
+    box-shadow: 0px 0px 4px 0px;
 }
 
 footer {
@@ -25,6 +26,39 @@ footer {
 .container-boxed {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.header-container {
+    min-height: 50px;
+    
+}
+
+.header-category {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-logo-container {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-icons {
+    width: 20%;
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo-size {
+    height: 25px;
 }
 
 .row {
@@ -39,7 +73,7 @@ footer {
     position: relative;
 }
 
-.card > img {
+.card>img {
     width: 100%;
 
 }
@@ -57,7 +91,7 @@ footer {
     color: red;
 }
 
-.favorite-item {
+.favorite-label {
     background-color: white;
     padding: 5px 8px 5px 8px;
     position: absolute;
